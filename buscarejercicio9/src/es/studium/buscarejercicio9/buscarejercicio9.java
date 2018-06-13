@@ -35,6 +35,7 @@ public class buscarejercicio9
 			cadenaBuscada = entrada.readLine();
 			// Buscar la palabra en el contenido del fichero
 			int encontrado = contenidoFichero.indexOf(cadenaBuscada);
+			// COMENTARIO FELIX: Este if sirve para comprobar si existe la cadena buscada
 			if(encontrado!=-1)
 			{
 				System.out.println("La palabra '" + cadenaBuscada + "' esta en el fichero " + fichero + " en la posicion "+encontrado);
