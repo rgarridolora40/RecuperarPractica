@@ -19,6 +19,8 @@ public class buscarejercicio9
 		try
 		{
 			// Preguntamos al usuario por el nombre del fichero
+			
+			// comentario de rgarridolora41//
 			System.out.println("Indicar el nombre del fichero:");
 			fichero = entrada.readLine();
 			// Origen de los datos
@@ -36,6 +38,7 @@ public class buscarejercicio9
 			// Buscar la palabra en el contenido del fichero
 			int encontrado = contenidoFichero.indexOf(cadenaBuscada);
 			// COMENTARIO FELIX: Este if sirve para comprobar si existe la cadena buscada
+			// comentario de rgarridolora41 ;esto es para verificar la anotación
 			if(encontrado!=-1)
 			{
 				System.out.println("La palabra '" + cadenaBuscada + "' esta en el fichero " + fichero + " en la posicion "+encontrado);
